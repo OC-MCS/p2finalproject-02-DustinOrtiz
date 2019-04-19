@@ -165,8 +165,8 @@ public:
 		line2.setSize(Vector2f(0, 60));
 		line2.setFillColor(Color::White);
 
-		Text SI("***SPACE INVADER***", font, 30); // ***SPACE INVADERS*** text.
-		SI.setPosition(240, 10);
+		Text SI("***SPACE INVADERS***", font, 30); // ***SPACE INVADERS*** text.
+		SI.setPosition(230, 10);
 
 		Text kills("Kills: " + alienKills, font, 30); // Kills text.
 		kills.setPosition(20, 10);
