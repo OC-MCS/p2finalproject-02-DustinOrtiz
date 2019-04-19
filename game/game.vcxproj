@@ -149,7 +149,17 @@
     <ClCompile Include="game.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Readme.txt" />
+    <Image Include="..\..\..\..\Desktop\2Lab05_Tasks\game\enemy.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Alien.h" />
+    <ClInclude Include="AlienArmy.h" />
+    <ClInclude Include="Missiles.h" />
+    <ClInclude Include="Screen.h" />
+    <ClInclude Include="Missile.h" />
+    <ClInclude Include="Ship.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
